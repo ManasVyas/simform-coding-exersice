@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import CropOriginalIcon from "@mui/icons-material/CropOriginal";
 import {
   IconButton,
   Select,
@@ -15,17 +14,11 @@ import {
 } from "@mui/material";
 import CheckBoxIcon from "@mui/icons-material/CheckBox";
 import SubjectIcon from "@mui/icons-material/Subject";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
 import DeleteIcon from "@mui/icons-material/Delete";
 import FilterNoneIcon from "@mui/icons-material/FilterNone";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
-import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
-import TextFieldsIcon from "@mui/icons-material/TextFields";
-import TextSnippetIcon from "@mui/icons-material/TextSnippet";
-import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 import CloseIcon from "@mui/icons-material/Close";
 import "./QuestionForm.css";
-import { FiberPin, RadioButtonChecked, ShortText } from "@material-ui/icons";
 import DragIndicatorIcon from "@mui/icons-material/DragIndicator";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import { connect } from "react-redux";
