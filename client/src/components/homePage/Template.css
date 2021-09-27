@@ -1,0 +1,84 @@
+.template_section {
+  background-color: #f4f4f9;
+  padding: 7px 0;
+}
+
+.template_top {
+  margin: 0 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.template_right {
+  display: flex;
+}
+
+.gallery_button {
+  background: transparent;
+}
+
+.add_icon {
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.card {
+  margin: 15px 0 0 20px;
+}
+
+.main_body {
+  background-color: #fff;
+  margin: 0 180px;
+}
+
+.main_body_top {
+  display: flex;
+  margin: 15px 0 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_body_top_right {
+  display: flex;
+  align-items: center;
+}
+
+.form_card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.form_card:hover {
+  border: 1px solid #6e2594;
+}
+.form_card_image {
+  box-sizing: border-box;
+  height: 150px;
+  width: 198px;
+}
+
+.form_card_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px;
+}
+
+.form_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.content_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
